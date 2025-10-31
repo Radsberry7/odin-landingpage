@@ -1,5 +1,8 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    max-width: auto;
+    justify-content: center;
 }
 
 body{
@@ -9,7 +12,7 @@ body{
     padding: 0;
 }
 
-.header{
+header{
     display: block;
     background-color: #1f2937;
     color: white;
