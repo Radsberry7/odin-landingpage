@@ -38,24 +38,26 @@ header{
     padding-right: 40px;
 }
 
-.top-section{
-    display: flex;
+/* Top section */
+.top-section-wrapper{
     background-color: #1f2937;
     padding: 32px;
+}
+.top-section{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
-    max-width: 900px;
 }
 
-/* Top section */
 .card-1 {
     color:aliceblue;
 }
 
 #big-text {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 800;
     color: #f9faf8;
 }
 
