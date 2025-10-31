@@ -45,6 +45,7 @@ header{
     display: flex;
     justify-content: space-around;
     gap: 24px;
+    max-width: 900px;
 }
 
 /* Top section */
@@ -95,7 +96,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    width: 1000px;
+    width: 900px;
     justify-self: center;
 }
 
@@ -149,4 +150,36 @@ header{
 #someone {
     align-self: flex-end;
     text-align: right;
+    font-weight: 500px;
+}
+
+/* Sign-up Section */
+
+.call{
+    display: flex;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+#blue-box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 0% auto;
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#sign-up2{
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: 400px;
+    border-radius: 8px;
+    border: 2px solid white;
+    height: 32px;
+    width: 100px;
 }
