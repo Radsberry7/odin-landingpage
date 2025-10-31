@@ -12,6 +12,7 @@ body{
     padding: 0;
 }
 
+/* Header but really its the navigation bar*/
 header{
     display: block;
     background-color: #1f2937;
@@ -46,6 +47,7 @@ header{
     gap: 24px;
 }
 
+/* Top section */
 .card-1 {
     color:aliceblue;
 }
@@ -76,6 +78,7 @@ header{
     border: 2px solid white;
 }
 
+/* Mid section with the cats */
 .mid-section{
     display: block;
     box-sizing: border-box;
@@ -115,4 +118,35 @@ header{
     text-align: center;
     color:#1f2937f5;
     padding: 10px;
+}
+
+/* This is where the end of the quote section is */
+
+.quote-section-wrapper {
+    background-color: #E5E7EB;
+    width: 100%;
+}
+.quote-section{
+    /* background-color: #E5E7EB; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    max-width: 900px;
+    margin: 0% auto;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+    font-style: italic;
+    max-width: 100%;
+
+}
+
+#someone {
+    align-self: flex-end;
+    text-align: right;
 }
